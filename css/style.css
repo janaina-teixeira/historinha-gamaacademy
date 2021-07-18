@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+	margin-top: 80px;
+ 
+}
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  
+  
+ }
+ #logo{
+  width:371px;
+  height:176px;
+  margin-top: -35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.section-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-section-one{
+  background-color: #ff914d;
+  /*background-image: url(../assets/bg.jpg);*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background-section-two{
+  background-color: #ff914d;
+  /*background-image: url(../assets/bg2.jpeg);*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container{
+  background: #fff;
+  border-radius: 25px;
+  padding: 80px;
+  max-width: 450px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #00cfe4;
+  text-align: center;
+  
+}
+p{
+  font-size: 4em;
+}
+
+input{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background: #ff914d;
+  color: #fff
+  
+  
+}
+.button{
+  background-color: #ece000;
+  color:#000;
+  
+}
+
+
+form{
+  display: grid;
+  margin: 80px;
+}
+
+footer{
+  height: 150px;
+  padding: 25px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+
